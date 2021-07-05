@@ -36,5 +36,15 @@ public class Main {
         System.out.println("New int value: " + myNewIntValue);
         System.out.println("New byte value: " + myNewByteValue);
         System.out.println("New short value: " + myNewShortValue);
+
+        // Primitive Types Challenge
+        System.out.println("Primitive Types Challenge");
+
+        byte byteValue = 77;
+        short shortValue = 13468;
+        int intValue = 1356842785;
+        long longValue = 50000L + 10L * (byteValue + shortValue + intValue);
+
+        System.out.println("Total long value: " + longValue);
     }
 }
