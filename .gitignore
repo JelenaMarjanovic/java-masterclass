@@ -3,7 +3,7 @@
 *.iml
 out
 
-# Within other projecst
+# Within other projects
 */.idea
 */*.iml
 */out
