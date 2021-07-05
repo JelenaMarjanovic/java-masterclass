@@ -10,5 +10,11 @@ public class Main {
 
         System.out.println("Busted MIN value: " + (myMinIntValue - 1));   // Underflow
         System.out.println("Busted MAX value: " + (myMaxIntValue + 1));   // Overflow
+
+        byte myMinByteValue = Byte.MIN_VALUE;
+        byte myMaxByteValue = Byte.MAX_VALUE;
+
+        System.out.println("Byte minimum value: " + myMinByteValue);
+        System.out.println("Byte maximum value: " + myMaxByteValue);
     }
 }
