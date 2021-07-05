@@ -1,6 +1,7 @@
 # Within the repository
 .idea
 *.iml
+out
 
 # Within other projecst
 */.idea
