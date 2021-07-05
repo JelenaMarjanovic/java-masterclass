@@ -7,5 +7,8 @@ public class Main {
 
         System.out.println("Integer minimum value: " + myMinIntValue);
         System.out.println("Integer maximum value: " + myMaxIntValue);
+
+        System.out.println("Busted MIN value: " + (myMinIntValue - 1));   // Underflow
+        System.out.println("Busted MAX value: " + (myMaxIntValue + 1));   // Overflow
     }
 }
