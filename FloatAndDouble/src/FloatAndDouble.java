@@ -19,5 +19,10 @@ public class FloatAndDouble {
         System.out.println("MyIntValue = " + myIntValue);
         System.out.println("MyFloatValue = " + myFloatValue);
         System.out.println("MyDoubleValue = " + myDoubleValue);
+
+        System.out.println("Convert a given number of pounds to kilograms");
+        double pounds = 50;
+        double kilograms = pounds * 0.45359237;
+        System.out.println(pounds + " pounds = " + kilograms + " kilograms");
     }
 }
